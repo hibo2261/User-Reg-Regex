@@ -2,20 +2,23 @@ package com.bridgelabz;
 
 import java.util.Scanner;
 
-public class UserRegistrationMain {
-    public static void main(String[] args){
-      
-    	Scanner sc = new Scanner(System.in);
-       
-    	UserRegistration user = new UserRegistration();
-        
-    	System.out.println("Welcome to the User Registration System");
 
-        System.out.println("Please Enter the password:");
+public class UserRegistrationMain {
+   
+	public static void main(String[] args){
+     
+		Scanner sc = new Scanner(System.in);
        
-        String password = sc.nextLine();
+		UserRegistration user = new UserRegistration();
        
-        user.toCheckPasswordValidation(password);//UC6
+		System.out.println("Welcome to the User Registration System");
+
+        
+		System.out.println("Please Enter the password:");
+       
+		String password = sc.nextLine();
+        
+		user.toCheckPasswordValidation(password);//UC7
 
 
 
